@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SaaY Pages</title>
+  <meta name="description" content="Página pessoal do SaaY. Nada relevante por aqui.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #777777;
+      --accent: #1a73e8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --fg: #eaeaea;
+        --muted: #9a9a9a;
+        --accent: #8ab4f8;
+      }
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      line-height: 1.7;
+      text-align: center;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+    main { max-width: 34rem; }
+    h1 { font-size: 2.2rem; margin: 0 0 1rem; }
+    p { color: var(--muted); margin: .5rem 0; }
+    a { color: var(--accent); }
+    footer { margin-top: 3rem; font-size: .85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SaaY Pages</h1>
+    <p>Você não vai encontrar nada relevante aqui.</p>
+    <p>Sério. Pode fechar a aba.</p>
+    <p>
+      Se mesmo assim você ficou curioso, existe uma
+      <a href="privacy.html">política de privacidade</a>.
+    </p>
+  </main>
+  <footer>© 2026 SaaY Pages · feito no Linux, claro</footer>
+</body>
+</html>
